@@ -52,13 +52,14 @@ body {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
+/* Center aligns text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 .marketing h2 {
   font-weight: 400;
+  margin-top: 10px;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
