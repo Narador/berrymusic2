@@ -114,6 +114,9 @@ body {
   text-align: center;
 }
 
+.featurette-image {
+  border-radius: 10px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
