@@ -18,8 +18,15 @@ body {
   text-align: center;
 }
 
-.jumbotron {
+.jumbo-about {
   background: url(../img/aboutbg.jpg);
+}
+
+.jumbo-lessons {
+  background: url(../img/lessons.jpg)
+}
+
+.jumbotron {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -92,7 +99,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
