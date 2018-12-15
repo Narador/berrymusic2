@@ -22,12 +22,14 @@ body {
   background: url(../img/aboutbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   margin-bottom: 2rem;
   height: 30em;
 }
 
 .page-heading {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 3em;
   line-height: 1;
   letter-spacing: -.05rem;
   text-align: center;
