@@ -18,6 +18,26 @@ body {
   text-align: center;
 }
 
+.jumbotron {
+  background: url(../img/aboutbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+  height: 30em;
+}
+
+.page-heading {
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  text-align: center;
+  font-family: inherit;
+}
+
+.title-divider {
+  margin: 2em auto;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -36,7 +56,6 @@ body {
   height: 32rem;
   background-color: rgb(119, 119, 119);
 }
-
 
 .carousel-item > img {
   position: absolute;
