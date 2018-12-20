@@ -30,6 +30,10 @@ main {
   background: url(../img/lessons.jpg)
 }
 
+.jumbo-benefits {
+  background: url(../img/benefitsbg.jpg)
+}
+
 .jumbotron {
   background-repeat: no-repeat;
   background-size: cover;
