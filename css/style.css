@@ -34,6 +34,10 @@ main {
   background: url(../img/benefitsbg.jpg)
 }
 
+.jumbo-events {
+  background: url(../img/groupshare.JPG)
+}
+
 .jumbotron {
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,6 +87,7 @@ main {
   height: 32rem;
   margin: auto;
   object-fit: cover;
+  opacity: .85;
 }
 
 
