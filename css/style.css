@@ -27,7 +27,7 @@ main {
 }
 
 .jumbo-lessons {
-  background: url(../img/lessons.jpg)
+  background: url(../img/lessonsedit.jpg)
 }
 
 .jumbo-benefits {
@@ -35,7 +35,7 @@ main {
 }
 
 .jumbo-events {
-  background: url(../img/groupshare.JPG)
+  background: url(../img/groupshareedit.JPG)
 }
 
 .jumbotron {
@@ -100,12 +100,22 @@ main {
   text-align: center;
 }
 
+.marketing .col-lg-3 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
 .marketing h2 {
   font-weight: 400;
   margin-top: 10px;
 }
 
 .marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.marketing .col-lg-3 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
@@ -144,7 +154,7 @@ main {
   text-align: center;
 }
 
-.featurette p {
+.centered {
   text-align: center;
 }
 
