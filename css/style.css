@@ -121,9 +121,30 @@ main {
 
 /* Testimonials  */
 
-.testimonial {
-  margin-bottom: 1.5rem;
+.testimonial-deck {
+  padding: 25px 100px;
+}
+
+.testimonial-wrapper {
+  max-width: 1200px;
+}
+
+.testimonial-card {
   text-align: center;
+}
+
+.card-upper {
+  height: 100px;
+  background-color: rgb(145, 145, 145); /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(to bottom right, red, rgb(189, 209, 5));  */
+}
+
+.testimonial-image {
+  margin-top: -50px;
+  border-radius: 50%;
+  width: 110px;
+  overflow: hidden;
+  border: 5px solid rgb(255, 255, 255);
 }
 
 /* CONTACT CONTENT
