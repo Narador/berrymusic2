@@ -27,7 +27,7 @@ main {
 }
 
 .jumbo-lessons {
-  background: url(../img/lessonsedit.jpg)
+  background: url(../img/toddlers.jpg)
 }
 
 .jumbo-benefits {
@@ -76,7 +76,7 @@ main {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background-color: rgb(119, 119, 119);
+  background-color: rgb(196, 196, 196);
 }
 
 .carousel-item > img {
