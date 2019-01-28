@@ -122,7 +122,7 @@ main {
 /* Testimonials  */
 
 .testimonial-deck {
-  padding: 25px 100px;
+  padding: 25px 36px;
 }
 
 .testimonial-wrapper {
@@ -145,6 +145,14 @@ main {
   width: 110px;
   overflow: hidden;
   border: 5px solid rgb(255, 255, 255);
+}
+
+.slider-control {
+  max-width: 50px;
+}
+
+.card-text {
+  margin-bottom: 0;
 }
 
 /* CONTACT CONTENT
@@ -191,6 +199,12 @@ main {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+@media (min-width: 400px) {
+  .testimonial-deck {
+    padding: 25px 50px;
+  }
+}
 
 @media (min-width: 768px) {
   .bottom-hr {
