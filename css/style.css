@@ -121,10 +121,6 @@ main {
 
 /* Testimonials  */
 
-/* .testimonial-wrapper {
-  max-width: 1200px;
-} */
-
 .carousel-inner .carousel-item .img-box {
   width: 150px;
   height: 150px;
@@ -227,7 +223,6 @@ main {
     font-size: 1.25rem;
     line-height: 1.4;
   }
-
   .featurette-heading {
     font-size: 42px;
   }
