@@ -75,8 +75,8 @@ main {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
-  background-color: rgb(196, 196, 196);
+  height: 34rem;
+  background-color: rgb(255, 255, 255);
 }
 
 .carousel-item > img {
@@ -121,38 +121,52 @@ main {
 
 /* Testimonials  */
 
-.testimonial-deck {
-  padding: 25px 36px;
-}
-
-.testimonial-wrapper {
+/* .testimonial-wrapper {
   max-width: 1200px;
-}
+} */
 
-.testimonial-card {
-  text-align: center;
-}
-
-.card-upper {
-  height: 100px;
-  background-color: rgb(145, 145, 145); /* For browsers that do not support gradients */
-  /* background-image: linear-gradient(to bottom right, red, rgb(189, 209, 5));  */
-}
-
-.testimonial-image {
-  margin-top: -50px;
-  border-radius: 50%;
-  width: 110px;
-  overflow: hidden;
-  border: 5px solid rgb(255, 255, 255);
+.carousel-inner .carousel-item .img-box {
+  width: 150px;
+  height: 150px;
 }
 
 .slider-control {
   max-width: 50px;
 }
 
-.card-text {
-  margin-bottom: 0;
+#carouselTestimonialControls .carousel-control-prev {
+  margin-left: -45px;
+}
+
+#carouselTestimonialControls .carousel-control-next {
+  margin-right: -45px;
+}
+
+#carouselTestimonialControls .carousel-control-prev-icon,
+#carouselTestimonialControls .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+#carouselTestimonialControls .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+#carouselTestimonialControls .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* CONTACT CONTENT
@@ -200,12 +214,6 @@ main {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 400px) {
-  .testimonial-deck {
-    padding: 25px 50px;
-  }
-}
-
 @media (min-width: 768px) {
   .bottom-hr {
     display: none;
@@ -228,5 +236,20 @@ main {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .fas {
+    display: none;
+  }
+}
+
+@media (min-width: 36em) {
+  .normal-quotes {
+    display: none;
   }
 }
