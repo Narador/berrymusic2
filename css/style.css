@@ -210,6 +210,12 @@ main {
   border-radius: 10px;
 }
 
+.headshot {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -228,6 +234,9 @@ main {
   }
   .featurette-heading {
     font-size: 42px;
+  }
+  .headshot {
+    float: right;
   }
 }
 
