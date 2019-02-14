@@ -27,7 +27,7 @@ main {
 }
 
 .jumbo-lessons {
-  background: url(../img/toddlers.jpg)
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/toddlertoys.JPG)
 }
 
 .jumbo-benefits {
@@ -35,7 +35,7 @@ main {
 }
 
 .jumbo-events {
-  background: url(../img/groupshareedit.JPG)
+  background: url(../img/musicsharegroup.JPG)
 }
 
 .jumbotron {
@@ -87,9 +87,12 @@ main {
   height: 32rem;
   margin: auto;
   object-fit: cover;
-  opacity: .85;
+  filter: brightness(70%);
 }
 
+.main-title {
+  font-size: 4rem;
+}
 
 /* Showcase Content */
 
