@@ -14,11 +14,12 @@ main {
 /* NAVIGATION */
 
 .navbar {
+  text-transform: uppercase;
   background: black;
 }
 
 .nav-item {
-  padding: 0 1em;
+  padding: 0 .6em;
   text-align: center;
 }
 
@@ -191,13 +192,16 @@ main {
 
 .contact ul {
   margin: auto;
+  padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
 }
 
 .contact ul li {
   list-style: none;
+  padding-bottom: 20px;
 }
 
 .contact ul li a {
@@ -346,7 +350,7 @@ main {
 }
 
 @media (max-width: 36em) {
-  .fas {
+  .quotation .fas {
     display: none;
   }
 }
